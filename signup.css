@@ -45,7 +45,6 @@ margin-top: -55px;
     text-indent: 100px;
     padding-inline-end: 125px;
     border-radius: 10px;
-    background-image: url(./apple.png);
 }
 #main{
 border: solid 2px rgb(255, 255, 255);
@@ -64,6 +63,7 @@ float: left;
 margin: 50px auto;
 padding-top: 160px;
 padding-inline-start: 300px;
+border-image-width: 20px;
 }
 
 #image:hover{
@@ -91,4 +91,33 @@ a{
    text-indent: 100px;
    margin: 30px auto;
 
+}
+
+#apple{
+    
+   float: unset;
+   margin-top: -90px;
+   margin-bottom: 20px;
+   
+}
+
+footer{
+    margin-top: 30px;
+    font-size: x-small;
+}
+
+#lock{
+    width: 20px;
+    float: right;
+    float: inline-end;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+#at{
+    width: 20px;
+    float: inline-end;
+    margin-top: -45px;
+    margin-bottom: 40px;
+    margin-left: 320px;
 }
